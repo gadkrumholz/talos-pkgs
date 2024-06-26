@@ -68,9 +68,9 @@ vars:
   ipxe_sha512: ad18f513e3ffbda4865dc0b7b12d5d06249355ceb495bddb806e8315c1a92d11582d09fc5c301015bd3957507cceb116735bf9bd73fc219995e77dc9b70241cf
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-  linux_version: 6.6.39
-  linux_sha256: 2783d42112095f95c510e1b421f056df8cbfa845f9040c6115080434a77a776b
-  linux_sha512: fbf1e27f7fc68ac42dd2cb40f853a77d4b2aeaee0190beededd39d4251b206a0d2f6784b4b5aafbe21bae36669bb00e20235b15ba4dfe84231968334dc65e71c
+  linux_version: 6.8.12
+  linux_sha256: 19b31956d229b5b9ca5671fa1c74320179682a3d8d00fc86794114b21da86039
+  linux_sha512: 95c4c814a0257ae4678889249cb36867451e59e106d615cdcc1be929fbd6f44a925db98ee6bf1c01ae59f976a66e481231e6131348dd7da60dd08a7901dfeab9
 
   # renovate: datasource=git-tags extractVersion=^v(?<version>.*)$ depName=git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
   kmod_version: 32
@@ -133,9 +133,9 @@ vars:
   musl_sha512: 7bb7f7833923cd69c7a1a9b8a5f1784bfd5289663eb6061dcd43d583e45987df8a68a1be05d75cc1c88a3f5b610653d1a70f4a9cff4d8f7fd41ae73ee058c17c
 
   # renovate: datasource=github-releases depName=nvidia/open-gpu-kernel-modules
-  nvidia_driver_version: 535.129.03
-  nvidia_driver_sha256: 170ee91b6cd6c801bba0de91e0d62af8e574adde38120bc762784755b5a9821d
-  nvidia_driver_sha512: c8104103f34365b7a20dcebb64e1eb2e64a7b056b44329fa305f81e267759f2b1bb1c09923e617d4f5f4af3be01c3b8e2e6d739f03d4d0f129b31331fec3a4d8
+  nvidia_driver_version: 550.90.07
+  nvidia_driver_sha256: a1c2a2fa7346ffa9ff6f0ba5d924df73e4bb4a6650a2303a7b337f8b2b536e13
+  nvidia_driver_sha512: c73d552fd5a02dcceeae613a8e433280b3ea4d78faa7af12b806e2bac76a5fbc768eb46f3ee53b71dd06b78a23cfef361006a178451de6c408891f45a424b77d
 
   # renovate: datasource=git-tags extractVersion=^openssl-(?<version>.*)$ depName=git://git.openssl.org/openssl.git
   openssl_version: 3.3.0
